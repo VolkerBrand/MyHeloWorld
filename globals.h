@@ -68,10 +68,11 @@ extern boolean first_aid_ignore_pas;
 extern boolean first_aid_ignore_speed;
 extern boolean first_aid_ignore_poti;
 extern boolean first_aid_ignore_throttle;
-
+// new comment
 extern void save_eeprom();
 extern void save_shutdown();
 extern void activate_new_profile();
+extern void anyfunction();   // new function
 
 extern RTC_DS1307 rtc;
 extern Time now;
